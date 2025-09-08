@@ -9,8 +9,9 @@ import {displayCountries} from "./displayAllCountries.js";
 import { scrollTop, getAllFields } from "./utilities.js";
 import { getCountryDetails, eventListenerForCountry } from "./displayCountryDetails.js";
 
-const URL =
-  "https://restcountries.com/v3.1/all?fields=name,capital,flags,cca3,latlng,region,subregion,currencies,population,languages,timezones";
+// const URL =
+//   "https://restcountries.com/v3.1/all?fields=name,capital,flags,cca3,latlng,region,subregion,currencies,population,languages,timezones";
+const URL = "https://restcountries.com/v3.1/independent?status=true";
 const body = document.querySelector("body");
 const pageHeader = header(body);
 
